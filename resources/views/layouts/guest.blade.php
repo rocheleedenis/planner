@@ -15,6 +15,20 @@
 
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.3/dist/alpine.js" defer></script>
+
+        <style>
+            body {
+                font-family: 'Nunito';
+                background-color: #f7eed1;
+                background-image: url("https://www.transparenttextures.com/patterns/food.png");
+                color: #D28101;
+                font-weight: 600;
+                height: 100vh;
+            }
+            .title {
+                font-size: 100px;
+            }
+        </style>
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">

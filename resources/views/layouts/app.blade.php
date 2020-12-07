@@ -15,11 +15,25 @@
 
         @livewireStyles
 
+        <style>
+            body {
+                font-family: 'Nunito';
+                background-color: #f7eed1;
+                background-image: url("https://www.transparenttextures.com/patterns/food.png");
+                color: #D28101;
+                font-weight: 600;
+                height: 100vh;
+            }
+            .title {
+                font-size: 100px;
+            }
+        </style>
+
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen">
             @livewire('navigation-dropdown')
 
             <!-- Page Heading -->
